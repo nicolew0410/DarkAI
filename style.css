@@ -1,0 +1,166 @@
+@font-face{
+  font-family:exp;
+  src: url("Experimento.ttf")
+}
+@font-face{
+  font-family:help;
+  src: url("HelpMe.ttf")
+}
+@font-face{
+  font-family:pix;
+  src: url("pixelmix.ttf")
+}
+@font-face{
+  font-family:sat;
+  src: url("sat.ttf")
+}
+@keyframes blinking{
+  0%{   color: red;   }
+  70%{   color: #000; }
+}
+.banner{
+  font-family:exp;
+  color:red;
+  font-size: 150px;
+  text-align:center;
+  margin: -20px;
+}
+.title{
+  font-family: sat; 
+  font-size: 65px; 
+  margin:20px;
+  color:red;
+  text-align:center;
+  letter-spacing: 20px;
+  font-weight:bold;
+}
+.title2{
+  font-size: 30px; 
+  color:red;
+  text-align: center;
+  font-family:arial; 
+  font-weight:bold; 
+  letter-spacing: 10px;
+}
+.pinkText{
+  font-family:arial; 
+  text-align: left; 
+  letter-spacing: 0;
+  margin: -10px; 
+  font-size: 20px;
+  color:mediumvioletred
+}
+.blink{
+  animation:blinking 2s infinite;
+}
+.textStyle1{
+  color:white;
+  font-family:pix;
+  font-size:30px;
+  text-align: center;
+}
+.blackBox{
+  padding:10px;
+  padding-left: 17px;
+  padding-right: 17px;
+  display:block;
+  background:black;
+  border-radius:30px;
+  border-style: dotted;
+  border-width: 5px;
+  border-color: red;
+}
+.hoverAnim:hover{
+   box-shadow: 0 12px 16px 0 rgba(0,0,0, 0.781),0 17px 50px 0 rgba(255, 16, 0, 0.884);
+}
+.help{
+  font-family:help;
+  color:red;
+}
+.pix{
+  font-family:pix;
+  color:red;
+}
+.background1{
+  background: black;
+}
+.loabImage{
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+}
+.sizingImg{
+  width: 100%;
+  height: 100%;
+  margin-top: -0.5%;
+}
+.landingPosition{
+  position: relative;
+}
+.landingBottomRight{
+  position:absolute;
+  bottom: 70px;
+  right: 220px;
+}
+.sidebar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+.sidebar a {
+  padding: 6px 0px 6px 20px;
+  font-family:help;
+  font-size: 27px;
+  color: #a10008;
+  text-decoration:none;
+  display: block;
+}
+.sidebar a:hover {
+  color: #e8020d;
+}
+.main {
+  margin-left: 160px;
+  padding: 0px 10px;
+}
+.iconResize{
+  width:100%;
+  height:100%;
+  margin-left: -5%;
+  opacity:0.7;
+}
+.iconResize:hover{
+  opacity: 1;
+}
+hr.first{
+  border: 3px inset #424242;
+}
+hr.second{
+  width:50%; 
+  border: 4px inset slategray; 
+  opacity: 0.8;
+}
+.iconMargin{
+  margin-left:20%
+}
+.matDiv{
+  margin-left:350px;
+  height:700px;
+  width:720px;
+  font-family:pix;
+  font-size:18px;
+  padding:2px;
+  letter-spacing: 4px;
+  color:red;
+}
+.starResize{
+  width: 8%;
+  height:15%;
+  position:absolute;
+  margin-left:320px;
+}
